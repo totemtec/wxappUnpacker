@@ -42,5 +42,10 @@ TIP
 │       ├── app.json
 ```
 
-# 公众号
-![image](/geek_road.jpg)
+# 注意事项
+1. 获取小程序的wxapkg文件不要用PC版微信，否则反编译时提示：Error: Magic number is not correct!
+   要使用手机root后读取，root嫌麻烦可以用模拟器，网上推荐的的夜神真坑啊，最后用了网易mumu模拟器，好用速度快
+2. 因为我的客户丢失了乙方，所以我做了乙方，想拿回源代码。
+   万幸从微信小程序管理后台能拿到map文件，使用下面工具，混淆后的Javascript文件都能还原回来
+   
+https://github.com/paazmaya/shuji
